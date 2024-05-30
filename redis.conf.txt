@@ -1,0 +1,32 @@
+# Redis configuration file example
+
+# Specify the port for Redis to listen on.
+port 6380
+
+# Specify the interface for Redis to bind to.
+# By default, it is bound to localhost.
+# bind 127.0.0.1
+
+# Specify the location of the Redis log file.
+# logfile /path/to/redis.log
+
+# Specify the maximum memory Redis can use.
+# maxmemory <bytes>
+
+# Specify the maximum memory Redis can use when using eviction policies.
+# maxmemory-policy noeviction
+
+# Specify the Redis database file location.
+# dbfilename dump.rdb
+
+# Specify the directory for Redis data.
+# dir /path/to/data/directory
+
+# Enable saving the database to disk.
+# save 900 1
+# save 300 10
+# save 60 10000
+
+# Append-only file mode.
+# appendonly yes
+# appendfilename "appendonly.aof"
